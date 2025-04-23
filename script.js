@@ -1,6 +1,5 @@
 // Set the countdown target date (5 days from now)
-const now = new Date();
-const targetDate = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000); // 5 days in ms
+const targetDate = new Date("2025-04-28T12:00:00"); // yyyy-mm-ddTHH:MM:SS
 
 function updateCountdown() {
     const currentTime = new Date();
